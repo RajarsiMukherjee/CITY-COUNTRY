@@ -1,0 +1,16 @@
+{
+  "add-city": [
+    {
+      "name": "kolkata",
+      "population": "1000000",
+      "countryr": "2020",
+      "id": 1
+    }
+  ],
+  "add-country": [
+    {
+      "country": "India",
+      "id": 1
+    }
+  ]
+}
