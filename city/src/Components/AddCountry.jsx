@@ -14,10 +14,7 @@ const countryData = useSelector((store) => store.cityData.countryData)
 console.log("coun" , countryData)
 
 const handleADD =() => {
-    console.log("hello");
-    console.log(country)
-    // countryData
-    console.log("coun" , countryData)
+     
     fetch("http://localhost:8080/add-country" , {
         method: "POST",
         body: JSON.stringify({country}),
