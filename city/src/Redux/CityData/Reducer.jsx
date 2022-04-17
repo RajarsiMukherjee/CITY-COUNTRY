@@ -4,7 +4,7 @@ const initState = {
     error: "false",
     loading: "false",
     cityData: [],
-    countryData: ["india"   ]
+    countryData: ["india"]
 };
 
 export const  CityDataReducer = (store = initState , {type,payload}) => {
@@ -20,8 +20,7 @@ export const  CityDataReducer = (store = initState , {type,payload}) => {
                 ...store,
                 error: false,
                 loading:false
-                // cityData: [],
-                // countryData:[]
+                  
             }
 
         case ERROR:
